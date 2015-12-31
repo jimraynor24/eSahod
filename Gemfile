@@ -8,8 +8,7 @@ group :development, :test do
 end
 
 group :production do
-  #Use postgreSQL as the database in production
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
