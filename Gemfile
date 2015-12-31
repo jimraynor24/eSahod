@@ -6,6 +6,11 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :production do
+  #Use postgreSQL as the database in production
+  gem 'pg'
+end
+
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
