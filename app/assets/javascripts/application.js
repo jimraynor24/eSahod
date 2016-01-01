@@ -10,8 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
+//= require jquery.min.js
+//= require nicescroll/jquery.nicescroll.min.js
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+//= require custom.js
