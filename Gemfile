@@ -49,4 +49,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Include font-awesome in the project
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
+
+gem 'rails_12factor'
