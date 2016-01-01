@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # set the relative root, because we're deploying to /esahod
+  config.action_controller.relative_url_root = '/esahod'
 end
